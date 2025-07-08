@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="sytle.css">
+	<script type="text/javascript" src="script.js"></script>
+	
+</head>
+<body onload="LlenarTabla()">
+	<header>
+		<img src="us.png">
+		<a href="index.html">Home</a>
+		<a href="usuarios.html">Usuarios</a>
+		<a href="Cuenta.html">Cuenta</a>
+		<input type="text" id="search">
+	</header>
+
+	<div class="data">
+		<div class="cars">
+			<h2 id="Total">Total:</h2>
+			<button onclick="add()">Agregar</button>
+			<button onclick="del()">Quitar</button>
+			
+		</div>
+		<table id="tabla">
+			<tr>
+				<th>Nombre</th>
+				<th>Calificaion</th>
+				
+
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+body
+	{
+		background: url(https://expoknews.com/wp-content/uploads/2021/10/Arboles-en-Twitter-para-salvar-a-los-bosques-scaled.jpg);
+	}
+
+header
+{
+	
+	height: 11vh;
+	display: flex;
+justify-content: row;
+  align-items: center;
+  padding: .5%;
+
+}
+
+hearder a
+{
+	front-size: 2vw;
+}
+header input
+{
+	width: 20%;
+	height: 90%;
+	margin-left: auto;
+
+}
+
+a
+	{
+		font-size: 25px;
+		font-style: italic;
+		color: black;
+		text-shadow: 1px 1px rgba(255, 255, 255, .6),  -.4px -.4px rgba(255, 255,255, .4);
+	}
+.primero
+	{
+		background: rgb(50,111,220);
+		color: rgb(22, 140, 215);
+
+	}	
+
+.Segundo
+	{
+		background: #00dadd;
+		width: 260px;
+	}
+
+.Formulario
+	{
+		background: rgba(0, 0, 150, 0.7);
+		color: #fff;
+		width: 235px;
+		text-align: center;
+		display: inline-block;
+		padding-top:10px;
+		padding-bottom: 10px;
+		border-radius: 10px;
+		box-shadow: 10px 10px rgba(0,0,0, 0.6);
+
+	}
+
+
+label
+	{
+
+	}
+
+.full
+	{
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+		transition: 5s;
+	}
+
+.Formulario input
+	{
+		width: 85%;
+		margin-bottom: 10px;
+
+	}
+
+footer
+	{
+		background: #00ffaa;
+	}
+#foto
+	{
+		width: 80%;
+
+	}
+.full:hover
+	{
+		width: 400px;
+		rotate: 360deg;
+		transition: 2s;
+	}
+header img
+{
+	height: 60%;
+}
+.data
+{
+	width: 100%;
+	border: solid skyblue 3px;
+}
+.data #tabla
+{
+	background: cadetblue;
+	border-collapse: collapse;
+	width: 50%;
+	text-align: center;
+}
+td
+{
+	border: solid black 2px;
+	background: #00d587;
+}
+th
+{
+	background: blueviolet;
+	border: solid lightblue 4px;
+}
+.cars
+{
+	float: right;
+	color: green;
+	width: 15%;
+	padding: 3%;
+	front-size: 2vw;
+}
+.cars button{
+	width: 100%;
+	margin-bottom: 3% ;
+	front-size: 3vw;
+
+}
+.non
+{
+	background:#00d587 ;
+}
+
+.non :hover{
+	border: solid rgb(220, 220, 225) 3px;
+}
+.par:active{
+	background: #07b100;
+}
+.par
+{
+	background: #038656;
+}
+.par :hover{
+	border: rgb(220, 220, 221) 3 px;
+}
